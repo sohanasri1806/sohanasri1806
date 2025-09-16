@@ -45,9 +45,8 @@ Databases & Tools: MySQL, GitHub
 
 Frameworks: Spring Boot
 
-Other Interests: AI/ML, MLOps, Hackathons, Gamified Learning
+Other Interests: AI with LLM, ML, Hackathons, Gamified Learning
 
-🌐 Connect with me
 
 ## 🌐 Connect with me  
 
