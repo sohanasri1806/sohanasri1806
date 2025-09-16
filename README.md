@@ -8,6 +8,7 @@ I’m passionate about AI, Full Stack Development, and Problem Solving, and I en
 🚀 Projects & Ideas
 
 💡 Some of these are completed projects, while others are prototypes/ideas I’ve explored in hackathons & learning:
+
 FurBuddy 🐾 – Pet donation & adoption platform with real-time chat, email notifications (React, Firebase, MySQL)
 
 HealthMate 🏥 – Family health tracker with reminders (HTML, CSS, Bootstrap, Express.js, MySQL)
@@ -27,16 +28,23 @@ ReWear 👕 – (Prototype) Sustainable fashion exchange platform (React, MongoD
 NASA Space Apps Challenge 🌌 – Gamified website to teach children about space and the capabilities of the James Webb Space Telescope, with interactive games for Classes 1–10
 
 🏆 Hackathons & Achievements
+
 Generative AI Hackathon (2025) – 🥈 2nd place for AutoSage
+
 Krithomedh Coding Contest (2023) – Advanced to Round 2 solving DSA problems
+
 Active participant in hackathons & coding challenges (BZCL-Being Zero Coding League, Google Agentic AI Hackathon, NASA Space Apps Challenge etc.)
 
 🛠️ Skills
 
 Programming Languages: Java, Python, C, SQL
+
 Web Technologies: HTML, CSS, JavaScript, React, Node.js, Express.js, Bootstrap
+
 Databases & Tools: MySQL, GitHub
+
 Frameworks: Spring Boot
+
 Other Interests: AI/ML, MLOps, Hackathons, Gamified Learning
 
 🌐 Connect with me
