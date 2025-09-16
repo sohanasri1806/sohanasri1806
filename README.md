@@ -53,7 +53,7 @@ Other Interests: AI with LLM, ML, Hackathons, Gamified Learning
 📧 ssdunaka@gmail.com  
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin&style=for-the-badge)](https://linkedin.com/in/shiva-sohanasri-dunaka1806)  
-[![LeetCode](https://img.shields.io/badge/LeetCode-Solve-orange?logo=leetcode&style=for-the-badge)](https://leetcode.com/sohana1806)  
+[![LeetCode](https://img.shields.io/badge/LeetCode-Solve-orange?logo=leetcode&style=for-the-badge)](https://leetcode.com/sohanasri1806)  
 [![Codeforces](https://img.shields.io/badge/Codeforces-Profile-blue?logo=codeforces&style=for-the-badge)](https://codeforces.com/profile/sohana1806)  
 [![CodeChef](https://img.shields.io/badge/CodeChef-Rated-brown?logo=codechef&style=for-the-badge)](https://www.codechef.com/users/sohana1806)    
 
