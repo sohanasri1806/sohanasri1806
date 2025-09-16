@@ -1,6 +1,6 @@
 ✨ Shiva Sohana Sri Dunaka
 
-AI Explorer | Full Stack Builder | Hackathon Enthusiast | Creative Problem Solver
+AI Explorer | Full Stack Developer | Hackathon Enthusiast | Creative Problem Solver
 
 Hi 👋, I’m Sohana, a Computer Science Engineering student at BVRIT Hyderabad (JNTUH) with a CGPA of 9.38.
 I’m passionate about AI, Full Stack Development, and Problem Solving, and I enjoy building projects that blend creativity with real-world impact.
