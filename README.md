@@ -9,13 +9,21 @@ I’m passionate about AI, Full Stack Development, and Problem Solving, and I en
 
 💡 Some of these are completed projects, while others are prototypes/ideas I’ve explored in hackathons & learning:
 FurBuddy 🐾 – Pet donation & adoption platform with real-time chat, email notifications (React, Firebase, MySQL)
+
 HealthMate 🏥 – Family health tracker with reminders (HTML, CSS, Bootstrap, Express.js, MySQL)
+
 Bank Management System 💳 – Java Swing + MySQL banking application with ATM functionalities
+
 Minimum Cost Path Optimization 🎮 – Python game using Tkinter + Pygame for pathfinding visualization
+
 AutoSage 🚗 – AI-powered vehicle comparison tool (Gemini Flash) → 🥈 2nd place out of 83 teams in Generative AI Hackathon
+
 Deepfake Detection Web App 🎥 – (Prototype) CNN-LSTM + XceptionNet, FastAPI backend, React frontend, WhatsApp integration
+
 Sahayak 📚 – (Prototype) AI-powered rural teaching assistant (Gemini + Vertex AI + Firebase)
+
 ReWear 👕 – (Prototype) Sustainable fashion exchange platform (React, MongoDB, Express.js)
+
 NASA Space Apps Challenge 🌌 – Gamified website to teach children about space and the capabilities of the James Webb Space Telescope, with interactive games for Classes 1–10
 
 🏆 Hackathons & Achievements
@@ -38,10 +46,9 @@ Other Interests: AI/ML, MLOps, Hackathons, Gamified Learning
 📧 ssdunaka@gmail.com  
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin&style=for-the-badge)](https://linkedin.com/in/shiva-sohanasri-dunaka1806)  
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-black?logo=github&style=for-the-badge)](https://github.com/sohanasri1806)  
 [![LeetCode](https://img.shields.io/badge/LeetCode-Solve-orange?logo=leetcode&style=for-the-badge)](https://leetcode.com/sohana1806)  
-[![Codeforces](https://img.shields.io/badge/Codeforces-Profile-blue?logo=codeforces&style=for-the-badge)](https://codeforces.com/profile/sohanasri1806)  
-[![CodeChef](https://img.shields.io/badge/CodeChef-Rated-brown?logo=codechef&style=for-the-badge)](https://www.codechef.com/users/sohanasri1806)    
+[![Codeforces](https://img.shields.io/badge/Codeforces-Profile-blue?logo=codeforces&style=for-the-badge)](https://codeforces.com/profile/sohana1806)  
+[![CodeChef](https://img.shields.io/badge/CodeChef-Rated-brown?logo=codechef&style=for-the-badge)](https://www.codechef.com/users/sohana1806)    
 
 
 
