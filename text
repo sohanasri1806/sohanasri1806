@@ -92,59 +92,6 @@ int main()
     return 0;
 }
 
-4.Encryption and Decryption
-
-
-
-#include <stdio.h>
-#include <math.h>
-
-
-// Function for modular exponentiation (fast power)
-long long power(long long base, long long exp, long long mod) {
-    long long result = 1;
-    base = base % mod;
-    while (exp > 0) {
-        if (exp % 2 == 1)
-            result = (result * base) % mod;
-        exp = exp / 2;
-        base = (base * base) % mod;
-    }
-    return result;
-}
-
-int main() {
-    int p = 17;   // first prime
-    int q = 11;   // second prime
-    int n = p * q;               // modulus
-    int phi = (p - 1) * (q - 1); // totient
-
-    int e = 7; // choose e (coprime with phi)
-    int d;
-
-    // Compute d (multiplicative inverse of e mod phi)
-    for (d = 2; d < phi; d++) {
-        if ((d * e) % phi == 1)
-            break;
-    }
-
-    int msg;
-    printf("Enter message (number) : ");
-    scanf("%d", &msg);
-
-    long long cipher = power(msg, e, n);
-    long long decrypted = power(cipher, d, n);
-
-    printf("\nPublic Key: (%d, %d)", e, n);
-    printf("\nPrivate Key: (%d, %d)", d, n);
-    printf("\nOriginal Message: %d", msg);
-    printf("\nEncrypted Message: %lld", cipher);
-    printf("\nDecrypted Message: %lld\n", decrypted);
-
-    return 0;
-}
-
-
 
 5.crc-12 and crc-16
 
