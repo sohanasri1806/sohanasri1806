@@ -1,0 +1,336 @@
+Q1)Aim: To create an application to setup node JS environment and display “Hello World”.
+Source Code:
+File Name: hello.js console.log("Hello World");
+
+
+
+Q2)Aim: To create a Node JS application for user login system. Source Code:
+>Setup Project: 1.Create and open folder 23wh1a05c5
+3.npm init -y 
+4.npm install express
+
+const express = require("express");
+const app = express();
+app.use(express.json());
+
+let users = [];
+
+// Register route
+app.post("/register", (req, res) => {
+    let { username, password } = req.body;
+    if (!username || !password) return res.send("All fields required");
+    if (users.find(u => u.username === username)) return res.send("User exists");
+    users.push({ username, password });
+    res.send("Registered");
+});
+
+// Login route
+app.post("/login", (req, res) => {
+    let { username, password } = req.body;
+    const user = users.find(u => u.username === username && u.password === password);
+    if (user)
+        res.send(`Login successful. Welcome, ${user.username}!`);
+    else
+        res.send("Invalid credentials");
+});
+
+
+
+Q3)Aim: Write a Node JS program to perform read, write, and other operations on a file.
+Source Code:
+const fs = require("fs");
+// 1. Write file
+fs.writeFile("data.txt", "Hello Node.js File System!", (err) => {
+if (err) {
+console.log("Error writing file");
+return;
+}
+console.log("File written successfully");
+// 2. Read file
+fs.readFile("data.txt", "utf8", (err, data) => {
+if (err) {
+console.log("Error reading file");
+return;
+}
+console.log("\nFile content after write:");
+console.log(data);
+// 3. Append file
+fs.appendFile("data.txt", "\nThis is appended text.", (err) => {
+if (err) {
+console.log("Error appending file");
+return;
+}
+console.log("\nData appended successfully");
+// 4. Read again after append
+fs.readFile("data.txt", "utf8", (err, newData) => {
+if (err) {
+console.log("Error reading file");
+return;
+}
+console.log("\nFile content after append:");
+console.log(newData);
+// 5. Rename file
+fs.rename("data.txt", "newdata.txt", (err) => {
+if (err) {
+console.log("Error renaming file");
+return;
+}
+console.log("\nFile renamed successfully");
+console.log("New file name: newdata.txt");
+// 6. Delete file
+fs.unlink("newdata.txt", (err) => {
+if (err) {
+console.log("Error deleting file");
+return;
+}
+console.log("\nFile deleted successfully");
+});
+});
+});
+});
+});
+});
+
+
+Q4)Create a food delivery website where users can order food from a particular restaurant listed on the website for handling http requests and responses using NodeJS
+
+app.js
+------------
+const http = require("http");
+const fs = require("fs");
+
+http.createServer((req,res)=>{
+  if(req.url==="/"){
+    fs.readFile("index.html",(e,d)=>{
+      res.writeHead(200,{"Content-Type":"text/html"});
+      res.end(d);
+    });
+  }
+}).listen(3000);
+
+
+index.html
+--------------------
+<!DOCTYPE html>
+<html>
+<body>
+
+<h3>Food Delivery</h3>
+
+<input type="radio" name="r" onclick="showMenu('pizza')"> Pizza Hut
+<input type="radio" name="r" onclick="showMenu('kfc')"> KFC
+<input type="radio" name="r" onclick="showMenu('dominos')"> Dominos
+<br><br>
+
+<div id="menu"></div>
+
+<input type="text" id="food" placeholder="Enter food item"><br><br>
+
+<button onclick="order()">Place Order</button>
+
+<script>
+function showMenu(type) {
+  var menu = document.getElementById("menu");
+
+  if (type === "pizza") {
+    menu.innerHTML =
+      "Pizza Hut Menu:<br>" +
+      "Margherita - ₹199<br>" +
+      "Veg Supreme - ₹299<br>" +
+      "Cheese Burst - ₹349<br><br>";
+  }
+  else if (type === "kfc") {
+    menu.innerHTML =
+      "KFC Menu:<br>" +
+      "Fried Chicken - ₹249<br>" +
+      "Burger - ₹199<br>" +
+      "French Fries - ₹149<br><br>";
+  }
+  else if (type === "dominos") {
+    menu.innerHTML =
+      "Dominos Menu:<br>" +
+      "Veg Pizza - ₹199<br>" +
+      "Paneer Pizza - ₹299<br>" +
+      "Garlic Bread - ₹149<br><br>";
+  }
+}
+
+function order() {
+  var food = document.getElementById("food").value;
+  if (food != "")
+    alert("Order placed for " + food);
+}
+</script>
+
+</body>
+</html>
+
+app.listen(3000, () => console.log("Server running on http://localhost:3000"));
+
+
+
+Q5)Aim: To implement a program that performs basic operations on databases and collections using MongoDB.
+Source Code:
+1. Database Commands
+ View all databases
+show dbs
+ Create a new or switch databases
+use 235c5
+ View current database
+db
+ Delete current database
+db.dropDatabase()
+2. Collection Commands
+ Show collections
+show collections
+ Create a collection named 'students'
+db.createCollection('comments')
+
+ Drop a collection named 'students'
+db.students.drop()
+3. Document (Row) Commands
+ Show all documents in a collection
+db.students.find()
+ Show all documents (pretty format)
+db.students.find().pretty()
+ Find the first document matching a filter
+db.students.findOne({name: “Prani”})
+ Insert one document
+db.students.insertOne({name:"Prani",lang:"Java",member_since:6})
+ Insert many documents
+db.students.insertMany([
+{name: 'Sun', lang: 'JavaScript', member_since: 3},
+{name: 'Mon', lang: 'Python', member_since: 3},
+{name: 'Tues', lang: 'Java', member_since: 4}
+])
+
+ Search by field
+db.students.find({lang: 'Python'})
+ Limit the number of results
+db.students.find().limit(2)
+ Skip results (useful for pagination)
+db.students.find().skip(2).limit(2)
+ Count the number of matching documents
+db.students.countDocuments({lang: 'Python'})
+
+4. Update Commands
+ Update one document
+db.students.updateOne(
+{name: 'Wed'},
+{$set: {name: ‘Prani', lang: 'Java', member_since: 3}},
+{upsert: true}
+)
+ Update many documents
+db.students.updateMany(
+{lang: 'JavaScript'},
+{$set: {verified: true}}
+)
+
+db.students.updateOne(
+{name: 'Sun'},
+{$inc: {member_since: 2}}
+)
+ Rename a field
+db.students.updateOne(
+{name: 'Sun'},
+{$rename: {member_since: 'member'}}
+)
+5. Delete Commands
+ Delete one document
+db.students.deleteOne({name: 'Prani’})
+ Delete many documents
+db.students.deleteMany({lang: ‘Java’})
+
+6. Query Operators
+ Comparison Operators
+db.students.find({member_since: {$lt: 90}}) // less than
+db.students.find({member_since: {$lte: 90}}) // less than or equal
+db.students.find({member_since: {$gt: 90}}) // greater than
+db.students.find({member_since: {$gte: 90}}) // greater than or equal
+db.students.find({member_since: {$ne: 5}}) // not equal
+ Logical Operators
+db.students.find({$and: [{lang: 'Python'}, {member_since: {$gt: 1}}]}) // AND
+db.students.find({$or: [{lang: 'Python'}, {lang: 'Java'}]}) // OR
+db.students.find({age: {$in: ['Python', 'Java']}}) // IN
+db.students.find({age: {$nin: ['C++', 'Rust']}}) // NOT IN
+ Sorting
+db.students.find().sort({member_since: 1}) // ascending
+db.students.find().sort({member_since: -1}) // descending
+:
+7. Indexes (Basics)
+ Create an index
+db.students.createIndex({name: 1})
+ View indexes
+db.students.getIndexes()
+ Drop an index
+db.students.dropIndex({name: 1})
+
+8. Aggregation (Basics)
+ Count by field
+db.students.aggregate([
+{$group: {_id: "$lang", total: {$sum: 1}}}
+])
+ Average by field
+db.students.aggregate([
+{$group: {_id: "$lang", avgMembership: {$avg: "$member_since"}}}
+])
+
+
+Q6) CRUD operations
+1. Sample Dataset (Students Collection)
+{
+"student_id": 101,
+"name": "Anita Sharma", "department": "Computer Science", "year": 3,
+"cgpa": 8.4
+}
+Database: collegeDB Collection: students
+2. Create Operation (Insert Data)
+a) Insert One Document use collegeDB
+db.students.insertOne({ student_id: 101, name: "Anita Sharma",
+department: "Computer Science", year: 3,
+cgpa: 8.4
+})
+b) Insert Multiple Documents db.students.insertMany([
+{
+student_id: 102,
+name: "Rahul Verma",
+department: "Information Technology", year: 2,
+cgpa: 7.9
+},
+{
+student_id: 103, name: "Neha Singh"
+department: "Computer Science", year: 4,
+cgpa: 9.1
+}
+]
+Documents are added to the students collection.
+3. Read Operation (Retrieve Data)
+a) Retrieve All Documents db.students.find()
+b) Retrieve with Condition
+db.students.find({ department: "Computer Science" })
+c) Retrieve Specific Fields (Projection) db.students.find(
+{ year: 3 },
+{ name: 1, cgpa: 1, _id: 0 }
+)
+d) Find One Document db.students.findOne({ student_id: 102 })
+4. Update Operation (Modify Data)
+a) Update One Document db.students.updateOne(
+{ student_id: 101 },
+{ $set: { cgpa: 8.8 } }
+)
+b) Update Multiple Documents db.students.updateMany(
+{ department: "Computer Science" },
+{ $set: { department: "CSE" } }
+)
+c) Increment a Field db.students.updateOne(
+{ student_id: 102 },
+{ $inc: { cgpa: 0.2 } }
+)
+db.students.find()
+5. Delete Operation (Remove Data)
+a) Delete One Document db.students.deleteOne({ student_id: 103 })
+b) Delete Multiple Documents
+db.students.deleteMany({ year: 2}
+c) Delete All Documents (Careful!)
+db.students.deleteMany({})
+db.students.find()
