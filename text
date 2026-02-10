@@ -395,5 +395,83 @@ Start the project using:
 If output appears, Node.js is running successfully
 
 
+What is MongoDB
+MongoDB is an open-source NoSQL database that stores data in a document-oriented format. It is mainly used in backend applications to store and manage large amounts of data efficiently.
+
+
+
+Steps to Install MongoDB (Windows)
+Step 1: Download MongoDB
+Open a web browser and visit the official MongoDB website:
+https://www.mongodb.com/
+
+Go to Products → MongoDB Community Server
+
+Click Download
+
+Select the following options:
+
+Version: Latest
+
+OS: Windows
+
+Package: MSI
+
+Click Download
+
+Step 2: Run Installer
+Double-click the downloaded .msi file to start the installation process.
+
+Step 3: Choose Setup Type
+Select Complete setup for standard installation.
+
+Step 4: Configure Service
+Choose Install MongoDB as a Service so that MongoDB runs automatically in the background.
+
+Step 5: Install MongoDB Compass
+Keep Install MongoDB Compass checked to install the graphical user interface.
+
+Step 6: Finish Installation
+Click Install and then Finish after the setup is completed.
+
+Step 7: Add MongoDB to PATH
+Search Environment Variables
+
+Click Edit system environment variables
+
+Click Environment Variables
+
+Under System variables, select Path → Click Edit
+
+C:\Program Files\MongoDB\Server\<version>\bin
+
+example: C:\Program Files\MongoDB\Server\7.0\bin)
+
+
+Click OK → OK
+
+Verify Installation
+Open Command Prompt and run:
+     mongod --version
+If version details appear, MongoDB is installed successfully.
+
+Running MongoDB
+Step 1: Start MongoDB Server
+Open Command Prompt and run:
+
+    mongod
+
+Step 2: Connect to MongoDB
+Open a new Command Prompt window and run:
+
+     mongosh
+
+Step 3: Test MongoDB
+In the MongoDB shell, type:
+
+        show databases
+
+If databases are listed, MongoDB is running successfully.
+
 
 
