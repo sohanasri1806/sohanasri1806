@@ -1,3 +1,10 @@
+▶️ Steps: (for 8,9,10)
+Open VS Code
+Create a folder (e.g., angular-apps)
+Create index.html (and employees.json for Q10)
+Paste your code
+run live server or type url in browser.
+
 8. Develop an angular JS form to apply CSS and Events.
 
 Code: index.html
@@ -115,8 +122,19 @@ angular.module("app", [])
 </body>
 </html>
 
+
+
+
 11.Develop a web application to manage student information using Express and Angular
 JS
+
+first run below commands:
+npm init -y
+npm install express
+then package.json gets generated
+then create 2 files index.html, server.js , paste the codes and type below command:
+node server.js
+check output in browser
 
 Code:
 Server.js
@@ -177,6 +195,18 @@ th,td{border:1px solid #000;padding:5px;}
 </body>
 </html>
 
+-----------------------------------------------
+For any react application first check 
+npm -v
+node -v
+if versions are displayed then,
+npx create-react-app demo
+cd demo
+ paste codes in App.js
+then run 
+npm start
+check output in browser
+------------------------------------------------
 12. Write a program to create a voting application using React JS
 
 Code : App.js
