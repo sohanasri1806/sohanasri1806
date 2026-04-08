@@ -1,0 +1,323 @@
+8. Develop an angular JS form to apply CSS and Events.
+
+index.html
+
+<!DOCTYPE html>
+<html ng-app="app">
+
+<body ng-controller="ctrl">
+
+<h2>Simple Form</h2>
+
+<input ng-model="name" placeholder="Name"><br><br>
+
+<input ng-model="email" placeholder="Email"><br><br>
+
+<button ng-click="submit()">Submit</button>
+
+<p>{{msg}}</p>
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+
+<script>
+angular.module("app",[])
+.controller("ctrl", function($scope){
+    $scope.submit = function(){
+        $scope.msg = "Form Submitted by " + $scope.name;
+    };
+});
+</script>
+
+</body>
+</html>
+
+9. Develop a Job Registration form and validate it using angular JS.
+
+index.html
+
+<!DOCTYPE html>
+<html ng-app="myApp">
+
+<body ng-controller="myCtrl">
+
+<h2>Job Registration</h2>
+
+<form ng-submit="submit()">
+
+Name: <input type="text" ng-model="name" required><br><br>
+
+Email: <input type="email" ng-model="email" required><br><br>
+
+Position:
+<select ng-model="position" required>
+  <option value="">Select</option>
+  <option>Developer</option>
+  <option>Designer</option>
+</select><br><br>
+
+<button type="submit">Submit</button>
+
+</form>
+
+<p>{{msg}}</p>
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+
+<script>
+var app = angular.module("myApp", []);
+
+app.controller("myCtrl", function($scope) {
+    $scope.submit = function() {
+        $scope.msg = "Registered " + $scope.name;
+    };
+});
+</script>
+
+</body>
+</html>
+
+10. Write an angular JS application to access JSON file data of an employee from a server
+using $http service.
+
+employees.json
+
+[
+  {"name": "Ram", "salary": 50000},
+  {"name": "Sita", "salary": 60000}
+]
+
+index.html
+
+<!DOCTYPE html>
+<html ng-app="myApp">
+
+<body ng-controller="myCtrl">
+
+<h2>Employee List</h2>
+
+<button ng-click="load()">Load Data</button>
+
+<ul>
+  <li ng-repeat="e in employees">
+    {{e.name}} - {{e.salary}}
+  </li>
+</ul>
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+
+<script>
+angular.module("myApp", [])
+.controller("myCtrl", function($scope, $http) {
+
+  $scope.load = function() {
+    $http.get("employees.json")
+    .then(function(response) {
+      $scope.employees = response.data;
+    });
+  };
+
+});
+</script>
+
+</body>
+</html>
+
+11. Develop a web application to manage student information using Express and AngularJS
+ 
+index.js
+<!DOCTYPE html>
+<html ng-app="myApp">
+
+<body ng-controller="myCtrl">
+
+<h2>Student List</h2>
+
+<button ng-click="load()">Load Students</button>
+
+<ul>
+  <li ng-repeat="s in students">
+    {{s.name}} - {{s.age}}
+  </li>
+</ul>
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+
+<script>
+angular.module("myApp", [])
+.controller("myCtrl", function($scope, $http){
+
+  $scope.load = function(){
+    $http.get("http://localhost:3000/students")
+    .then(function(res){
+      $scope.students = res.data;
+    });
+  };
+
+});
+</script>
+
+</body>
+</html>
+
+server.js
+
+const express = require("express");
+const cors = require("cors");
+
+const app = express();
+app.use(cors()); // IMPORTANT
+
+app.get("/students", (req, res) => {
+  res.json([
+    { name: "Ram", age: 20 },
+    { name: "Sita", age: 21 }
+  ]);
+});
+
+app.listen(3000);
+
+Q.Write a program to create a simple calculator Application using React JS.
+
+app.js
+
+import React, { useState } from "react";
+
+function App() {
+  const [input, setInput] = useState("");
+
+  const handleClick = (val) => setInput(input + val);
+  const calculate = () => setInput(eval(input).toString());
+  const clear = () => setInput("");
+
+  return (
+    <div style={{ textAlign: "center", marginTop: 30 }}>
+      <h1>Calculator</h1>
+      <input type="text" value={input} readOnly />
+      <br /><br />
+      <button onClick={() => handleClick("7")}>7</button>
+      <button onClick={() => handleClick("8")}>8</button>
+      <button onClick={() => handleClick("9")}>9</button>
+      <button onClick={() => handleClick("/")}>/</button>
+      <br />
+      <button onClick={() => handleClick("4")}>4</button>
+      <button onClick={() => handleClick("5")}>5</button>
+      <button onClick={() => handleClick("6")}>6</button>
+      <button onClick={() => handleClick("*")}>*</button>
+      <br />
+      <button onClick={() => handleClick("1")}>1</button>
+      <button onClick={() => handleClick("2")}>2</button>
+      <button onClick={() => handleClick("3")}>3</button>
+      <button onClick={() => handleClick("-")}>-</button>
+      <br />
+      <button onClick={() => handleClick("0")}>0</button>
+      <button onClick={() => handleClick(".")}>.</button>
+      <button onClick={calculate}>=</button>
+      <button onClick={() => handleClick("+")}>+</button>
+      <br /><br />
+      <button onClick={clear}>C</button>
+    </div>
+  );
+}
+
+export default App;
+
+
+12. Write a program to create a voting application using React JS
+
+App.js
+
+import React, { useState } from "react";
+
+function App() {
+  const [a, setA] = useState(0);
+  const [b, setB] = useState(0);
+
+  return (
+    <div style={{
+      display: "flex",
+      justifyContent: "center",
+      alignItems: "center",
+      height: "100vh"
+    }}>
+     
+      <div style={{ textAlign: "center" }}>
+        <h2>Voting App</h2>
+
+        <p>Karuna: {a}</p>
+        <button onClick={() => setA(a + 1)}>Vote</button>
+
+        <p>Vidya: {b}</p>
+        <button onClick={() => setB(b + 1)}>Vote</button>
+
+        <h3>
+          Winner: {a > b ? "Karuna" : b > a ? "Vidya" : "Tie"}
+        </h3>
+      </div>
+
+    </div>
+  );
+}
+
+export default App;
+
+
+13. Develop a leave management system for an organization where users can apply different types of
+leaves such as casual leave and medical leave. They also can view the available number of days
+using react application.
+
+App.js
+
+import React, { useState } from "react";
+
+function App() {
+  const [cl, setCl] = useState(10);
+  const [ml, setMl] = useState(8);
+  const [days, setDays] = useState("");
+  const [msg, setMsg] = useState("");
+
+  const apply = (type) => {
+    if (days <= 0) {
+      setMsg("Enter valid days");
+      return;
+    }
+
+    if (type === "CL") {
+      if (days > cl) setMsg("No Casual Leaves Left");
+      else {
+        setCl(cl - days);
+        setMsg("CL Applied");
+      }
+    } else {
+      if (days > ml) setMsg("No Medical Leaves Left");
+      else {
+        setMl(ml - days);
+        setMsg("ML Applied");
+      }
+    }
+
+    setDays("");
+  };
+
+  return (
+    <div style={{ textAlign: "center", marginTop: 50 }}>
+      <h2>Leave Management</h2>
+
+      <input
+        type="number"
+        value={days}
+        onChange={(e) => setDays(Number(e.target.value))}
+      /><br /><br />
+
+      <p>Casual Leave: {cl}</p>
+      <button onClick={() => apply("CL")}>Apply CL</button>
+
+      <p>Medical Leave: {ml}</p>
+      <button onClick={() => apply("ML")}>Apply ML</button>
+
+      <p>{msg}</p>
+    </div>
+  );
+}
+
+export default App;
+
