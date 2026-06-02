@@ -1,13 +1,17 @@
-**✨ Shiva Sohana Sri Dunaka**
+# ✨ Shiva Sohana Sri Dunaka
 
-**AI Explorer | Full Stack Developer | Hackathon Enthusiast | Creative Problem Solver**
+### AI Explorer | Full Stack Developer | Hackathon Enthusiast | Creative Problem Solver
 
-Hi 👋, I’m Sohana, a Computer Science Engineering student at BVRIT Hyderabad (JNTUH) with a CGPA of 9.38.
+Hi 👋, I’m Sohana, a Computer Science Engineering student at BVRIT Hyderabad (JNTUH) with a CGPA of 9.32.
+
 I’m passionate about AI, Full Stack Development, and Problem Solving, and I enjoy building projects that blend creativity with real-world impact.
+
+---
 
 ## 🌟 Featured Projects
 
 ### 🛡️ Rakshak AI
+
 Rakshak AI is an AI-powered disaster response and alert system designed to analyze disaster-related messages, detect emergencies, identify disaster types, determine affected locations, estimate severity levels, and provide real-time alerts and safety precautions to users and rescue teams.
 
 ### 🏥 HealthMate
@@ -22,49 +26,55 @@ A pet adoption and donation platform connecting pet lovers, shelters, and adopte
 
 An interactive pathfinding visualization tool built using Python, Tkinter. Demonstrates minimum-cost path algorithm through engaging visual simulations, making algorithm learning intuitive and interactive.
 
+---
 
-
-###🚀 Projects & Ideas
+## 🚀 Projects & Ideas
 
 💡 Some of these are completed projects, while others are prototypes/ideas I’ve explored in hackathons & learning:
 
-FurBuddy 🐾 – Pet donation & adoption platform with real-time chat, email notifications (React, Firebase, MySQL)
+* 🛡️ **Rakshak AI** - AI-powered disaster response and alert system designed to analyze disaster-related messages and provide real-time alerts.
 
-HealthMate 🏥 – Family health tracker with reminders (HTML, CSS, Bootstrap, Express.js, MySQL)
+* 🐾 **FurBuddy** – Pet donation & adoption platform with real-time chat, email notifications (React, Firebase, MySQL)
 
-Bank Management System 💳 – Java Swing + MySQL banking application with ATM functionalities
+* 🏥 **HealthMate** – Family health tracker with reminders (HTML, CSS, Bootstrap, Express.js, MySQL)
 
-Minimum Cost Path Optimization 🎮 – Python game using Tkinter + Pygame for pathfinding visualization
+* 💳 **Bank Management System** – Java Swing + MySQL banking application with ATM functionalities
 
-AutoSage 🚗 – AI-powered vehicle comparison tool (Gemini Flash) → 🥈 2nd place out of 83 teams in Generative AI Hackathon
+* 🎮 **Minimum Cost Path Optimization** – Python game using Tkinter + Pygame for pathfinding visualization
 
-Deepfake Detection Web App 🎥 – (Prototype) CNN-LSTM + XceptionNet, FastAPI backend, React frontend, WhatsApp integration
+* 🚗 **AutoSage** – AI-powered vehicle comparison tool (Gemini Flash) → 🥈 2nd place out of 83 teams in Generative AI Hackathon
 
-Sahayak 📚 – (Prototype) AI-powered rural teaching assistant (Gemini + Vertex AI + Firebase)
+* 📚 **Sahayak** – (Prototype) AI-powered rural teaching assistant (Gemini + Vertex AI + Firebase)
 
-ReWear 👕 – (Prototype) Sustainable fashion exchange platform (React, MongoDB, Express.js)
+* 👕 **ReWear** – (Prototype) Sustainable fashion exchange platform (React, MongoDB, Express.js)
 
-NASA Space Apps Challenge 🌌 – Gamified website to teach children about space and the capabilities of the James Webb Space Telescope, with interactive games for Classes 1–10
+* 🌌 **NASA Space Apps Challenge** – Gamified website to teach children about space and the capabilities of the James Webb Space Telescope, with interactive games for Classes 1–10
 
-###🏆 Hackathons & Achievements
+---
 
-Generative AI Hackathon (2025) – 🥈 2nd place for AutoSage
+## 🏆 Hackathons & Achievements
 
-Krithomedh Coding Contest (2023) – Advanced to Round 2 solving DSA problems
+* 🥈 **Generative AI Hackathon (2025)** – 2nd place for AutoSage
 
-Active participant in hackathons & coding challenges (BZCL-Being Zero Coding League, Google Agentic AI Hackathon, NASA Space Apps Challenge etc.)
+* 💻 **Krithomedh Coding Contest (2023)** – Advanced to Round 2 solving DSA problems
 
-###🛠️ Skills
+* 🚀 Active participant in hackathons & coding challenges (BZCL-Being Zero Coding League, Google Agentic AI Hackathon, NASA Space Apps Challenge etc.)
 
-Programming Languages: Java, Python, C, SQL
+---
 
-Web Technologies: HTML, CSS, JavaScript, React, Node.js, Express.js, Bootstrap
+## 🛠️ Skills
 
-Databases & Tools: MySQL, GitHub
+**Programming Languages:** Java, Python, C, SQL
 
-Frameworks: Spring Boot
+**Web Technologies:** HTML, CSS, JavaScript, React, Node.js, Express.js, Bootstrap
 
-Other Interests: AI with LLM, ML, Hackathons, Gamified Learning
+**Databases & Tools:** MySQL, GitHub
+
+**Frameworks:** Spring Boot
+
+**Other Interests:** AI with LLM, ML, Hackathons, Gamified Learning
+
+---
 
 
 ## 🌐 Connect with me  
