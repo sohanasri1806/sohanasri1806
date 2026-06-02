@@ -5,6 +5,25 @@ AI Explorer | Full Stack Developer | Hackathon Enthusiast | Creative Problem Sol
 Hi 👋, I’m Sohana, a Computer Science Engineering student at BVRIT Hyderabad (JNTUH) with a CGPA of 9.38.
 I’m passionate about AI, Full Stack Development, and Problem Solving, and I enjoy building projects that blend creativity with real-world impact.
 
+## 🌟 Featured Projects
+
+### 🛡️ Rakshak AI
+
+
+### 🏥 HealthMate
+
+A family health management system that helps users track medical records, set medicine reminders, and monitor health-related activities. Built with a user-friendly interface to simplify healthcare management for families.
+
+### 🐾 FurBuddy
+
+A pet adoption and donation platform connecting pet lovers, shelters, and adopters. Includes real-time chat, email notifications, and secure user management to streamline the adoption process and promote animal welfare.
+
+### 🎮 Minimum Cost Path Finder
+
+An interactive pathfinding visualization tool built using Python, Tkinter. Demonstrates minimum-cost path algorithm through engaging visual simulations, making algorithm learning intuitive and interactive.
+
+
+
 🚀 Projects & Ideas
 
 💡 Some of these are completed projects, while others are prototypes/ideas I’ve explored in hackathons & learning:
