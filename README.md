@@ -88,6 +88,7 @@ An interactive pathfinding visualization tool built using Python, Tkinter. Demon
 
 ## 📊 Coding Stats
 
+
 ### GitHub Statistics
 
 <p align="center">
