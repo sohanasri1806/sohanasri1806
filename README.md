@@ -86,15 +86,31 @@ An interactive pathfinding visualization tool built using Python, Tkinter. Demon
 [![Codeforces](https://img.shields.io/badge/Codeforces-Profile-blue?logo=codeforces&style=for-the-badge)](https://codeforces.com/profile/sohana1806)  
 [![CodeChef](https://img.shields.io/badge/CodeChef-Rated-brown?logo=codechef&style=for-the-badge)](https://www.codechef.com/users/sohana1806)    
 
-## 📊 GitHub Stats
+## 📊 Coding Stats
+
+### GitHub Statistics
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=sohanasri1806&show_icons=true&theme=tokyonight" height="170" />
-  <img src="https://streak-stats.demolab.com?user=sohanasri1806&theme=tokyonight" height="170" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sohanasri1806&layout=compact&theme=tokyonight" height="170" />
 </p>
 
+### GitHub Streak
+
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sohanasri1806&layout=compact&theme=tokyonight" />
+  <img src="https://streak-stats.demolab.com?user=sohanasri1806&theme=tokyonight" />
+</p>
+
+### LeetCode Statistics
+
+<p align="center">
+  <img src="https://leetcard.jacoblin.cool/sohanasri1806?theme=dark&font=Karma&ext=contest" />
+</p>
+
+### CodeChef Statistics
+
+<p align="center">
+  <img src="https://cp-logo.vercel.app/codechef/sohana1806" height="100" />
 </p>
 
 
