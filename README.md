@@ -107,11 +107,6 @@ An interactive pathfinding visualization tool built using Python, Tkinter. Demon
   <img src="https://leetcard.jacoblin.cool/sohanasri1806?theme=dark&font=Karma&ext=contest" />
 </p>
 
-### CodeChef Statistics
-
-<p align="center">
-  <img src="https://cp-logo.vercel.app/codechef/sohana1806" height="100" />
-</p>
 
 
 ✨ Always learning, building, and sharing knowledge to make technology meaningful. 🚀
