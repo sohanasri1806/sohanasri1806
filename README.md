@@ -1,6 +1,6 @@
-✨ Shiva Sohana Sri Dunaka
+**✨ Shiva Sohana Sri Dunaka**
 
-AI Explorer | Full Stack Developer | Hackathon Enthusiast | Creative Problem Solver
+**AI Explorer | Full Stack Developer | Hackathon Enthusiast | Creative Problem Solver**
 
 Hi 👋, I’m Sohana, a Computer Science Engineering student at BVRIT Hyderabad (JNTUH) with a CGPA of 9.38.
 I’m passionate about AI, Full Stack Development, and Problem Solving, and I enjoy building projects that blend creativity with real-world impact.
@@ -24,7 +24,7 @@ An interactive pathfinding visualization tool built using Python, Tkinter. Demon
 
 
 
-🚀 Projects & Ideas
+**🚀 Projects & Ideas**
 
 💡 Some of these are completed projects, while others are prototypes/ideas I’ve explored in hackathons & learning:
 
@@ -46,7 +46,7 @@ ReWear 👕 – (Prototype) Sustainable fashion exchange platform (React, MongoD
 
 NASA Space Apps Challenge 🌌 – Gamified website to teach children about space and the capabilities of the James Webb Space Telescope, with interactive games for Classes 1–10
 
-🏆 Hackathons & Achievements
+**🏆 Hackathons & Achievements**
 
 Generative AI Hackathon (2025) – 🥈 2nd place for AutoSage
 
@@ -54,7 +54,7 @@ Krithomedh Coding Contest (2023) – Advanced to Round 2 solving DSA problems
 
 Active participant in hackathons & coding challenges (BZCL-Being Zero Coding League, Google Agentic AI Hackathon, NASA Space Apps Challenge etc.)
 
-🛠️ Skills
+**🛠️ Skills**
 
 Programming Languages: Java, Python, C, SQL
 
