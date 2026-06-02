@@ -8,7 +8,7 @@ I’m passionate about AI, Full Stack Development, and Problem Solving, and I en
 ## 🌟 Featured Projects
 
 ### 🛡️ Rakshak AI
-
+Rakshak AI is an AI-powered disaster response and alert system designed to analyze disaster-related messages, detect emergencies, identify disaster types, determine affected locations, estimate severity levels, and provide real-time alerts and safety precautions to users and rescue teams.
 
 ### 🏥 HealthMate
 
