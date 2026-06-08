@@ -79,7 +79,11 @@ An interactive pathfinding visualization tool built using Python, Tkinter. Demon
 
 ## 🌐 Connect with me  
 
-📧 ssdunaka@gmail.com  
+📧 Email: ssdunaka@gmail.com  
+
+🌐 Portfolio: https://portfolio-lyart-three-87.vercel.app
+
+💼 LinkedIn: www.linkedin.com/in/shiva-sohanasri-dunaka1806
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin&style=for-the-badge)](https://linkedin.com/in/shiva-sohanasri-dunaka1806)  
 [![LeetCode](https://img.shields.io/badge/LeetCode-Solve-orange?logo=leetcode&style=for-the-badge)](https://leetcode.com/sohanasri1806)  
